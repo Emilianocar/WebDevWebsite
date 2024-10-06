@@ -1,0 +1,45 @@
+/* Combining CSS Selectors*/
+
+h1, h2 {
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+/* CSS Positioning */
+
+img {
+    position: relative;
+    right: -50px;
+    border-radius: 10px 20px 30px 40px;
+}
+
+/* CSS Display */
+
+header {
+    background-color: rgb(85, 0, 79);
+    color: white;
+    padding: 20px;
+}
+
+/* Float */ 
+
+section ul {
+    float: left;
+    width: 50%;
+}
+
+/* Grid */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+/* Flexbox */
+
+footer {
+    border-top: 2px solid #eeeeee34;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
